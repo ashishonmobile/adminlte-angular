@@ -8,6 +8,8 @@ import { ContentWrapperComponent } from './adminlte/content-wrapper/content-wrap
 import { MainFooterComponent } from './adminlte/main-footer/main-footer.component';
 import { ControlSidebarComponent } from './adminlte/control-sidebar/control-sidebar.component';
 import {DropdownDirective} from './adminlte/shared/dropdown.directive';
+import { DemoDropdownBasicComponent } from './adminlte/demo-dropdown-basic/demo-dropdown-basic.component';
+import {BsDropdownModule} from 'ngx-bootstrap';
 
 
 @NgModule({
@@ -18,10 +20,12 @@ import {DropdownDirective} from './adminlte/shared/dropdown.directive';
     ContentWrapperComponent,
     MainFooterComponent,
     ControlSidebarComponent,
-    DropdownDirective
+    DropdownDirective,
+    DemoDropdownBasicComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

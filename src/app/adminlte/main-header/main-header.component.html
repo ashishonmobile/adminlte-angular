@@ -16,12 +16,13 @@
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav">
         <!-- Messages: style can be found in dropdown.less-->
-        <li class="dropdown messages-menu" appDrowpdown>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <li  dropdown class="dropdown messages-menu" >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" dropdownToggle>
             <i class="fa fa-envelope-o"></i>
             <span class="label label-success">4</span>
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" *dropdownMenu
+              role="menu" aria-labelledby="basic-link">
             <li class="header">You have 4 messages</li>
             <li>
               <!-- inner menu: contains the actual data -->
@@ -93,8 +94,8 @@
           </ul>
         </li>
         <!-- Notifications: style can be found in dropdown.less -->
-        <li class="dropdown notifications-menu" appDrowpdown>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <li dropdown class="dropdown notifications-menu" >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" dropdownToggle>
             <i class="fa fa-bell-o"></i>
             <span class="label label-warning">10</span>
           </a>
@@ -135,8 +136,8 @@
           </ul>
         </li>
         <!-- Tasks: style can be found in dropdown.less -->
-        <li class="dropdown tasks-menu" appDrowpdown>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <li dropdown class="dropdown tasks-menu" >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" dropdownToggle>
             <i class="fa fa-flag-o"></i>
             <span class="label label-danger">9</span>
           </a>
@@ -213,8 +214,8 @@
           </ul>
         </li>
         <!-- User Account: style can be found in dropdown.less -->
-        <li class="dropdown user user-menu" appDrowpdown>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <li dropdown class="dropdown user user-menu" >
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" dropdownToggle>
             <img src="assets/img/user2-160x160.jpg" class="user-image" alt="User Image">
             <span class="hidden-xs">Alexander Pierce</span>
           </a>
