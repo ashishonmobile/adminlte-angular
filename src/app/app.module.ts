@@ -15,6 +15,7 @@ import {AppRoutingModule} from './adminlte/app-routing.module';
 import { Dashboard2Component } from './adminlte/pages/dashboard2/dashboard2.component';
 import { TopNavigationComponent } from './adminlte/pages/layout-options/top-navigation/top-navigation.component';
 import { WidgetsComponent } from './adminlte/pages/widgets/widgets.component';
+import { GeneralComponent } from './adminlte/pages/ui-elements/general/general.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { WidgetsComponent } from './adminlte/pages/widgets/widgets.component';
     Dashboard1Component,
     Dashboard2Component,
     TopNavigationComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    GeneralComponent
   ],
   imports: [
     BrowserModule,
