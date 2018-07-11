@@ -16,6 +16,7 @@ import { Dashboard2Component } from './adminlte/pages/dashboard2/dashboard2.comp
 import { TopNavigationComponent } from './adminlte/pages/layout-options/top-navigation/top-navigation.component';
 import { WidgetsComponent } from './adminlte/pages/widgets/widgets.component';
 import { GeneralComponent } from './adminlte/pages/ui-elements/general/general.component';
+import { IconsComponent } from './adminlte/pages/ui-elements/icons/icons.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { GeneralComponent } from './adminlte/pages/ui-elements/general/general.c
     Dashboard2Component,
     TopNavigationComponent,
     WidgetsComponent,
-    GeneralComponent
+    GeneralComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,

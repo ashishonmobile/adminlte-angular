@@ -5,6 +5,7 @@ import {Dashboard1Component} from './pages/dashboard1/dashboard1.component';
 import {Dashboard2Component} from './pages/dashboard2/dashboard2.component';
 import {WidgetsComponent} from './pages/widgets/widgets.component';
 import {GeneralComponent} from './pages/ui-elements/general/general.component';
+import {IconsComponent} from './pages/ui-elements/icons/icons.component';
 
 const appRoute: Routes = [
   {path: '', component: Dashboard1Component},
@@ -12,6 +13,7 @@ const appRoute: Routes = [
   {path: 'dashboard2', component: Dashboard2Component},
   {path: 'widgets', component: WidgetsComponent},
   {path: 'general', component: GeneralComponent},
+  {path: 'icons', component: IconsComponent},
 ];
 
 @NgModule({
