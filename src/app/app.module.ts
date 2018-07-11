@@ -7,6 +7,7 @@ import { MainSidebarComponent } from './adminlte/main-sidebar/main-sidebar.compo
 import { ContentWrapperComponent } from './adminlte/content-wrapper/content-wrapper.component';
 import { MainFooterComponent } from './adminlte/main-footer/main-footer.component';
 import { ControlSidebarComponent } from './adminlte/control-sidebar/control-sidebar.component';
+import {DropdownDirective} from './adminlte/shared/dropdown.directive';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ControlSidebarComponent } from './adminlte/control-sidebar/control-side
     MainSidebarComponent,
     ContentWrapperComponent,
     MainFooterComponent,
-    ControlSidebarComponent
+    ControlSidebarComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule
