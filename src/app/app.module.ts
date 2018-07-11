@@ -13,6 +13,8 @@ import {BsDropdownModule} from 'ngx-bootstrap';
 import { Dashboard1Component } from './adminlte/pages/dashboard1/dashboard1.component';
 import {AppRoutingModule} from './adminlte/app-routing.module';
 import { Dashboard2Component } from './adminlte/pages/dashboard2/dashboard2.component';
+import { TopNavigationComponent } from './adminlte/pages/layout-options/top-navigation/top-navigation.component';
+import { WidgetsComponent } from './adminlte/pages/widgets/widgets.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { Dashboard2Component } from './adminlte/pages/dashboard2/dashboard2.comp
     DropdownDirective,
     DemoDropdownBasicComponent,
     Dashboard1Component,
-    Dashboard2Component
+    Dashboard2Component,
+    TopNavigationComponent,
+    WidgetsComponent
   ],
   imports: [
     BrowserModule,
