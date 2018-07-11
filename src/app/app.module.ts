@@ -17,6 +17,7 @@ import { TopNavigationComponent } from './adminlte/pages/layout-options/top-navi
 import { WidgetsComponent } from './adminlte/pages/widgets/widgets.component';
 import { GeneralComponent } from './adminlte/pages/ui-elements/general/general.component';
 import { IconsComponent } from './adminlte/pages/ui-elements/icons/icons.component';
+import { AlertComponent } from './adminlte/components/alert/alert.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { IconsComponent } from './adminlte/pages/ui-elements/icons/icons.compone
     TopNavigationComponent,
     WidgetsComponent,
     GeneralComponent,
-    IconsComponent
+    IconsComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
